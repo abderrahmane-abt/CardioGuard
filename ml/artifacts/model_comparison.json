@@ -1,0 +1,65 @@
+{
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.8525,
+      "precision": 0.8519,
+      "recall": 0.8214,
+      "f1_score": 0.8364,
+      "roc_auc": 0.9242,
+      "cv_mean": 0.8426,
+      "cv_std": 0.054
+    },
+    "Decision Tree": {
+      "accuracy": 0.7541,
+      "precision": 0.7826,
+      "recall": 0.6429,
+      "f1_score": 0.7059,
+      "roc_auc": 0.7289,
+      "cv_mean": 0.7893,
+      "cv_std": 0.0571
+    },
+    "Random Forest": {
+      "accuracy": 0.8525,
+      "precision": 0.913,
+      "recall": 0.75,
+      "f1_score": 0.8235,
+      "roc_auc": 0.914,
+      "cv_mean": 0.8347,
+      "cv_std": 0.029
+    },
+    "Support Vector Machine": {
+      "accuracy": 0.8525,
+      "precision": 0.8519,
+      "recall": 0.8214,
+      "f1_score": 0.8364,
+      "roc_auc": 0.9069,
+      "cv_mean": 0.8056,
+      "cv_std": 0.0587
+    }
+  },
+  "best_model": "Logistic Regression",
+  "best_metrics": {
+    "accuracy": 0.8525,
+    "precision": 0.8519,
+    "recall": 0.8214,
+    "f1_score": 0.8364,
+    "roc_auc": 0.9242,
+    "cv_mean": 0.8426,
+    "cv_std": 0.054
+  },
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ]
+}

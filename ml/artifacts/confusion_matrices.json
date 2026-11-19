@@ -1,0 +1,66 @@
+{
+  "Logistic Regression": {
+    "matrix": [
+      [
+        29,
+        4
+      ],
+      [
+        5,
+        23
+      ]
+    ],
+    "labels": [
+      "Healthy",
+      "Heart Disease"
+    ]
+  },
+  "Decision Tree": {
+    "matrix": [
+      [
+        28,
+        5
+      ],
+      [
+        10,
+        18
+      ]
+    ],
+    "labels": [
+      "Healthy",
+      "Heart Disease"
+    ]
+  },
+  "Random Forest": {
+    "matrix": [
+      [
+        31,
+        2
+      ],
+      [
+        7,
+        21
+      ]
+    ],
+    "labels": [
+      "Healthy",
+      "Heart Disease"
+    ]
+  },
+  "Support Vector Machine": {
+    "matrix": [
+      [
+        29,
+        4
+      ],
+      [
+        5,
+        23
+      ]
+    ],
+    "labels": [
+      "Healthy",
+      "Heart Disease"
+    ]
+  }
+}

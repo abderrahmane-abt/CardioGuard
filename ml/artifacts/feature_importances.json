@@ -1,0 +1,130 @@
+{
+  "Logistic Regression": {
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "importance": [
+      8.53,
+      93.41,
+      100.0,
+      26.57,
+      25.55,
+      7.92,
+      26.71,
+      47.05,
+      53.42,
+      74.83,
+      52.19,
+      92.83,
+      66.6
+    ]
+  },
+  "Decision Tree": {
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "importance": [
+      9.22,
+      7.57,
+      41.0,
+      10.61,
+      6.66,
+      0.0,
+      0.0,
+      13.69,
+      0.0,
+      25.84,
+      19.72,
+      31.44,
+      100.0
+    ]
+  },
+  "Random Forest": {
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "importance": [
+      61.17,
+      22.47,
+      100.0,
+      60.03,
+      63.22,
+      7.22,
+      16.4,
+      97.34,
+      51.07,
+      81.8,
+      44.26,
+      76.07,
+      93.12
+    ]
+  },
+  "Support Vector Machine": {
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "importance": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

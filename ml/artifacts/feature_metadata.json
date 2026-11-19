@@ -1,0 +1,135 @@
+{
+  "age": {
+    "label": "Age",
+    "unit": "years",
+    "type": "continuous",
+    "min": 20,
+    "max": 100,
+    "step": 1,
+    "default": 50
+  },
+  "sex": {
+    "label": "Sex",
+    "unit": "",
+    "type": "categorical",
+    "options": {
+      "Female": 0,
+      "Male": 1
+    },
+    "default": 1
+  },
+  "cp": {
+    "label": "Chest Pain Type",
+    "unit": "",
+    "type": "categorical",
+    "options": {
+      "Typical Angina": 0,
+      "Atypical Angina": 1,
+      "Non-anginal": 2,
+      "Asymptomatic": 3
+    },
+    "default": 0
+  },
+  "trestbps": {
+    "label": "Resting Blood Pressure",
+    "unit": "mm Hg",
+    "type": "continuous",
+    "min": 80,
+    "max": 220,
+    "step": 1,
+    "default": 120
+  },
+  "chol": {
+    "label": "Serum Cholesterol",
+    "unit": "mg/dl",
+    "type": "continuous",
+    "min": 100,
+    "max": 600,
+    "step": 1,
+    "default": 200
+  },
+  "fbs": {
+    "label": "Fasting Blood Sugar > 120",
+    "unit": "mg/dl",
+    "type": "categorical",
+    "options": {
+      "No": 0,
+      "Yes": 1
+    },
+    "default": 0
+  },
+  "restecg": {
+    "label": "Resting ECG",
+    "unit": "",
+    "type": "categorical",
+    "options": {
+      "Normal": 0,
+      "ST-T Abnormality": 1,
+      "LV Hypertrophy": 2
+    },
+    "default": 0
+  },
+  "thalach": {
+    "label": "Max Heart Rate",
+    "unit": "bpm",
+    "type": "continuous",
+    "min": 60,
+    "max": 220,
+    "step": 1,
+    "default": 150
+  },
+  "exang": {
+    "label": "Exercise Induced Angina",
+    "unit": "",
+    "type": "categorical",
+    "options": {
+      "No": 0,
+      "Yes": 1
+    },
+    "default": 0
+  },
+  "oldpeak": {
+    "label": "ST Depression (Oldpeak)",
+    "unit": "",
+    "type": "continuous",
+    "min": 0.0,
+    "max": 7.0,
+    "step": 0.1,
+    "default": 1.0
+  },
+  "slope": {
+    "label": "ST Slope",
+    "unit": "",
+    "type": "categorical",
+    "options": {
+      "Upsloping": 0,
+      "Flat": 1,
+      "Downsloping": 2
+    },
+    "default": 1
+  },
+  "ca": {
+    "label": "Major Vessels (Fluoroscopy)",
+    "unit": "",
+    "type": "categorical",
+    "options": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    },
+    "default": 0
+  },
+  "thal": {
+    "label": "Thalassemia",
+    "unit": "",
+    "type": "categorical",
+    "options": {
+      "Normal": 0,
+      "Fixed Defect": 1,
+      "Reversible Defect": 2,
+      "3": 3
+    },
+    "default": 2
+  }
+}

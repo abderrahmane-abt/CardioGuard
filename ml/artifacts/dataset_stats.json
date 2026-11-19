@@ -1,0 +1,14 @@
+{
+  "total_patients": 303,
+  "features_count": 13,
+  "disease_count": 138,
+  "healthy_count": 165,
+  "disease_rate": 45.5,
+  "avg_age": 54.4,
+  "age_range": [
+    29,
+    77
+  ],
+  "male_count": 207,
+  "female_count": 96
+}
