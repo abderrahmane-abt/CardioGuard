@@ -43,8 +43,8 @@ function WinnerBanner({ bestModel, metrics, styleConfig }) {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-mono uppercase font-bold tracking-wider text-amber-400">
-                🏆 Modèle Vainqueur
+              <span className="text-xs font-mono uppercase font-bold tracking-wider text-amber-400 flex items-center gap-1.5">
+                <Trophy className="w-3.5 h-3.5" /> Modèle Vainqueur
               </span>
               <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 font-bold border border-emerald-500/30">
                 Exporté en .pkl

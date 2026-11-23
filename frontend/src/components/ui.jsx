@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { AlertTriangle } from 'lucide-react';
 
 export function StatCard({ icon: Icon, label, value, subtitle, color = 'teal', delay = 0 }) {
   const colorMap = {
@@ -54,7 +55,10 @@ export function LoadingSpinner() {
 export function ErrorMessage({ message }) {
   return (
     <div className="glass-card p-6 border-cardio-red/30">
-      <p className="text-cardio-red text-sm">⚠ Error: {message}</p>
+      <p className="text-cardio-red text-sm flex items-center gap-2">
+        <AlertTriangle className="w-4 h-4 shrink-0" />
+        <span>Error: {message}</span>
+      </p>
       <p className="text-cardio-muted text-xs mt-2">Make sure the backend is running on port 8000</p>
     </div>
   );

@@ -301,7 +301,7 @@ export default function LivePredictor({ currentStyle = 'CARDIOCARE_OCEAN' }) {
                         : `${styleConfig.inputBg} opacity-70 hover:opacity-100`
                     }`}
                   >
-                    ♂ Homme (1)
+                    Homme (1)
                   </button>
                   <button
                     type="button"
@@ -312,7 +312,7 @@ export default function LivePredictor({ currentStyle = 'CARDIOCARE_OCEAN' }) {
                         : `${styleConfig.inputBg} opacity-70 hover:opacity-100`
                     }`}
                   >
-                    ♀ Femme (0)
+                    Femme (0)
                   </button>
                 </div>
               </div>
@@ -613,7 +613,7 @@ export default function LivePredictor({ currentStyle = 'CARDIOCARE_OCEAN' }) {
               <span>
                 {predicting
                   ? 'Calcul du Diagnostic par IA...'
-                  : '⚡ Analyser le Risque Cardiaque (Valider)'}
+                  : 'Analyser le Risque Cardiaque (Valider)'}
               </span>
             </button>
 
@@ -720,7 +720,15 @@ export default function LivePredictor({ currentStyle = 'CARDIOCARE_OCEAN' }) {
                           : 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30'
                       }`}
                     >
-                      {result.prediction === 1 ? '⚠️ Cardiopathie Détectée' : '✓ Patient Sain (Normal)'}
+                      {result.prediction === 1 ? (
+                        <span className="inline-flex items-center gap-1.5">
+                          <AlertTriangle className="w-3.5 h-3.5" /> Cardiopathie Détectée
+                        </span>
+                      ) : (
+                        <span className="inline-flex items-center gap-1.5">
+                          <CheckCircle2 className="w-3.5 h-3.5" /> Patient Sain (Normal)
+                        </span>
+                      )}
                     </span>
                   </div>
 
